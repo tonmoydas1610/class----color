@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+a{
+    outline: 0;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+    height: 100vh;
+    justify-content: center;
+
+}
+#container h2{
+    text-align: center;
+    text-decoration: solid forestgreen;
+    padding: 10px 10px;
+    text-decoration-color: darkred cyan;
+}
+#container #input{
+    
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: #e6f7be;
+}
+#container #increment, #decrement{
+    border-radius: 5px;
+    padding: 30px;
+    background-color: #f74905;
+    cursor: pointer;
+}
+    
+/* COLOR PART START */
+#colour{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eff309;
+    
+}
+#colour button{
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 1px;;
+    background-color: rgb(128, 211, 250);
+    font-size: 25px;
+    cursor: grabbing;
+}
+
+.btn{
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    position:fixed;
+    right:30px;
+    bottom:25px;
+    font-size: 30px;
+    opacity:0;
+    visibility: hidden;
+    
+}
+.btn.active{
+    opacity:1;
+    visibility: visible;
+}
